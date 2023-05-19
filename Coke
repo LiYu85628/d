@@ -1,0 +1,305 @@
+local OrionLib = loadstring(game:HttpGet("https://pastebin.com/raw/xLRUSiKx"))()
+
+local Window = OrionLib:MakeWindow({Name = "可乐脚本", HidePremium = false, SaveConfig = false, IntroText = "注入器："..identifyexecutor(), ConfigFolder = "可乐脚本"})
+
+local System = Window:MakeTab({
+
+	Name = "密钥系统",
+
+	Icon = "rbxassetid://4483345998",
+
+	PremiumOnly = false
+
+})
+
+System:AddTextbox({
+
+	Name = "输入密钥",
+
+	Default = "",
+
+	TextDisappear = true,
+
+	Callback = function(Value)
+
+		Key = Value
+
+	end
+
+})
+
+System:AddButton({
+
+	Name = "确定",
+
+	Callback = function()
+
+      	if Key == "114514" then
+
+      	    local OrionLib = loadstring(game:HttpGet("https://pastebin.com/raw/xLRUSiKx"))()
+
+local Window = OrionLib:MakeWindow({Name = "可乐脚本", HidePremium = false, SaveConfig = true,IntroText = "可乐脚本", ConfigFolder = "可乐脚本"})
+
+local Coke = Window:MakeTab({
+
+    Name = "doors",
+
+    Icon = "rbxassetid://4483345998",
+
+    PremiumOnly = false
+
+})
+
+Coke:AddButton({
+
+	Name = "MSDOORS(要FL)",
+
+	Callback = function()
+
+      	loadstring(game:HttpGet('https://raw.githubusercontent.com/mstudio45/MSDOORS/main/MSDOORS.lua'))()
+
+  	end
+
+})
+
+Coke:AddButton({
+
+	Name = "Nerd脚本(要discord白名单)",
+
+	Callback = function()
+
+      	loadstring(game:HttpGet("https://raw.githubusercontent.com/MrNeRD0/Doors-Hack/main/doorsnerdv4.lua"))()
+
+  	end
+
+})
+
+Coke:AddButton({
+
+	Name = "kingHub(已更新)",
+
+	Callback = function()
+
+      	loadstring(game:HttpGet("https://raw.githubusercontent.com/KINGHUB01/BlackKing/main/BlackKing%20Doors%20Mobile"))()
+
+  	end
+
+})
+
+Coke:AddButton({
+
+	Name = "不可能模式",
+
+	Callback = function()
+
+      	loadstring(game:HttpGet('https://raw.githubusercontent.com/Ukazix/impossible-mode/main/Protected_79.lua.txt'))()
+
+  	end
+
+})
+
+Coke:AddButton({
+
+	Name = "Endless模式",
+
+	Callback = function()
+
+      	loadstring(game:HttpGet("https://raw.githubusercontent.com/check78/worldcuuuup/main/Script.lua"))()
+
+  	end
+
+})
+
+Coke:AddButton({
+
+	Name = "物品复制枪",
+
+	Callback = function()
+
+      	loadstring(game:HttpGet("https://raw.githubusercontent.com/MrNeRD0/Doors-Hack/main/EverythingGunByNeRD.lua"))()
+
+  	end
+
+})
+
+Coke:AddButton({
+
+	Name = "控制物品大小枪",
+
+	Callback = function()
+
+      	loadstring(game:HttpGet("https://raw.githubusercontent.com/MrNeRD0/Doors-Hack/main/SizeChangerByNerd.lua"))()
+
+  	end
+
+})
+
+Coke:AddButton({
+
+	Name = "香蕉枪(可在困难模式发射香蕉)",
+
+	Callback = function()
+
+      	loadstring(game:HttpGet("https://raw.githubusercontent.com/MrNeRD0/Doors-Hack/main/BananaGunByNerd.lua"))()
+
+  	end
+
+})
+
+Coke:AddButton({
+
+	Name = "手持臭猫",
+
+	Callback = function()
+
+      	loadstring(game:HttpGet("https://raw.githubusercontent.com/K0t1n/Public/main/Maxwell%20Plushie"))()
+
+  	end
+
+})
+
+Coke:AddButton({
+
+	Name = "激光枪",
+
+	Callback = function()
+
+      	loadstring(game:HttpGet("https://raw.githubusercontent.com/K0t1n/Public/main/Laser%20Gun"))()
+
+  	end
+
+})
+
+Coke:AddButton({
+
+	Name = "手榴弹",
+
+	Callback = function()
+
+      	loadstring(game:HttpGet("https://raw.githubusercontent.com/MrNeRD0/Doors-Hack/main/MagnetByNerd.lua"))()
+
+  	end
+
+})
+
+Coke:AddButton({
+
+	Name = "圣光手雷",
+
+	Callback = function()
+
+      	loadstring(game:HttpGet("https://raw.githubusercontent.com/MrNeRD0/Doors-Hack/main/HolyGrenadeByNerd.lua"))()
+
+  	end
+
+})
+
+Coke:AddButton({
+
+	Name = "封印全部物品十字架要配合键盘脚本",
+
+	Callback = function()
+
+      	_G.Uses = 5000
+
+_G.Range = 30
+
+_G.OnAnything = true
+
+_G.Fail = false
+
+loadstring(game:HttpGet('https://raw.githubusercontent.com/PenguinManiack/Crucifix/main/Crucifix.lua'))()
+
+  	end
+
+})
+
+Coke:AddButton({
+
+	Name = "玩偶脚本合集",
+
+	Callback = function()
+
+      	loadstring(game:HttpGet("https://pastebin.com/raw/s21b8TkT", true))()
+
+  	end
+
+})
+
+Coke:AddButton({
+
+	Name = "无限手电筒",
+
+	Callback = function()
+
+      	loadstring(game:HttpGet("https://raw.githubusercontent.com/K0t1n/Public/main/Purple%20Flashlight"))()
+
+  	end
+
+})
+
+local Coke1 = Window:MakeTab({
+
+    Name = "世界最强脚本",
+
+    Icon = "rbxassetid://4483345998",
+
+    PremiumOnly = false
+
+})
+
+Coke1:AddButton({
+
+	Name = "上帝脚本用了直接无敌锁血全游戏通用热门的游戏我都试过",
+
+	Callback = function()
+
+      	loadstring(game:HttpGet("https://raw.githubusercontent.com/iimateiYT/Scripts/main/Protected%20(30).lua", true))()
+
+  	end
+
+})
+
+local Coke2 = Window:MakeTab({
+
+    Name = "键盘脚本",
+
+    Icon = "rbxassetid://4483345998",
+
+    PremiumOnly = false
+
+})
+
+Coke2:AddButton({
+
+	Name = "键盘",
+
+	Callback = function()
+
+      	loadstring(game:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt", true))()
+
+  	end
+
+})
+
+OrionLib:Init()
+
+      	else
+
+      	    OrionLib:MakeNotification({
+
+	            Name = "警告",
+
+	            Content = "密钥不正确",
+
+	            Image = "rbxassetid://4483345998",
+
+	            Time = 5
+
+            })
+
+        end
+
+  	end
+
+})的
